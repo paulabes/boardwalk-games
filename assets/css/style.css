@@ -1,4 +1,4 @@
-/* Google fonts */
+/* Google fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 /* CSS Variables */
@@ -22,15 +22,37 @@ h2,
 h3 {
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
 
 .sub-heading-color {
     color: var(--highlight-color);
 }
 
-/* Grid visualisation  
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
 
-.container,
+/* Navbar */
+
+#navbar {
+    background-color: var(--primary-color);
+}
+
+#navbar .logo {
+    width: 30px;
+}
+
+/* Header */
+
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
+/* grid visualisation CSS for testing */
+
+/* .container,
 .row {
     border: 2px solid black;
 }
@@ -38,5 +60,4 @@ h3 {
 .col-12 {
     border: 2px solid white;
     background-color: lightgray;
-}
-    */
+} */
