@@ -1,4 +1,4 @@
-/* Google fonts import */
+/* Google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Macondo&display=swap');
 
 /* CSS Variables */
@@ -27,3 +27,16 @@ h3 {
 .sub-heading-color {
     color: var(--highlight-color);
 }
+
+/* Grid visualisation  
+
+.container,
+.row {
+    border: 2px solid black;
+}
+
+.col-12 {
+    border: 2px solid white;
+    background-color: lightgray;
+}
+    */
